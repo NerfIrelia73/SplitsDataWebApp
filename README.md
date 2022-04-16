@@ -1,7 +1,7 @@
-# LiveSplitWebApp
+# SplitsDataWebApp
 Angular app for analyzing live split data
 
-# Lswebapp
+# SplitsDataWebApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 

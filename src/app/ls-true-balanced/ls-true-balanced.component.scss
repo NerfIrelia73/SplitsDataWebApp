@@ -1,0 +1,176 @@
+:host {
+  width: 49%;
+}
+
+.data {
+  width: 100%;
+  display: inline-block;
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.dataSet {
+  width: 99%;
+  background: #27282c;
+  display: inline-block;
+  border: 2px solid black;
+  margin-top: 0px;
+}
+
+.chartHeader {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.whatDis {
+  color: rgb(109, 109, 228);
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dataBlock {
+  margin-right: 1px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dropbtn {
+  background-color: #2f3136;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  background-color: #2f3136;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  background-color: #2f3136;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  background-color: #2f3136;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-content button:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+.show {
+  display: block;
+}
+
+.submitForm {
+  display: inline-block;
+}
+
+.form__label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: inline-block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.form__input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 14px;
+  margin: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 60px;
+  height: 15px;
+  display: inline-block;
+}
+
+.aboveGold__input {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 14px;
+  margin: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  background: transparent;
+  border: none;
+  width: 55px;
+  height: 10px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+
+.dataHeader {
+  margin-top: 15px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.dataStats {
+  margin-right: 60px;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  display: inline-block;
+  color: white;
+}
+
+polyline {
+  stroke: black;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.svgDisp {
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}

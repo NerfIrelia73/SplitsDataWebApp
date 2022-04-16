@@ -1,0 +1,180 @@
+:host {
+  text-align: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  background-color: #2f3136;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid white;
+  display: inline-block;
+  width: 88px;
+  height: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.helpDiv {
+  z-index: 200;
+  position: relative;
+  left: -50%;
+  height: 745px;
+  width: 510px;
+  background-color: rgb(51, 197, 197);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.errDiv {
+  z-index: 200;
+  position: relative;
+  left: -50%;
+  height: 300px;
+  width: 500px;
+  overflow-y: auto;
+  background-color: rgb(20, 22, 22);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.helpP {
+  margin-left: 7px;
+  text-align: left;
+}
+
+.data {
+  width: 100%;
+  height: 82%;
+  border: 2px solid black;
+  background: #1e1e1e;
+  display: inline-block;
+  overflow: auto;
+  white-space: nowrap;
+  text-overflow: clip;
+  margin-top: 22px;
+  margin-left: 0%;
+}
+
+.dataBlock {
+  width: 43%;
+  height: 82%;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -60px;
+}
+
+.dataContainer {
+  border: 1px solid black;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 700px;
+}
+
+.dropbtn {
+  background-color: #2f3136;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid white;
+  width: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  background-color: #2f3136;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  background-color: #2f3136;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  background-color: #2f3136;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-content button:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+.show {
+  display: block;
+}
+
+.submitForm {
+  display: inline-block;
+}
+
+.form__label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: inline-block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.form__input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 14px;
+  margin: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 60px;
+  height: 15px;
+  display: inline-block;
+}
+
+.dataHeader {
+  margin-top: 15px;
+  margin-left: 16px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.dataStats {
+  margin-right: 22px;
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  display: inline-block;
+  color: white;
+}

@@ -1,0 +1,72 @@
+<div *ngIf="dispNow" class="dataBlock" style="margin-left: 1%;">
+    <div>
+        <h2 class="chartHeader" style="margin-bottom: 38px;">True Balanced Comparison</h2>
+        <h2 class="whatDis" (click)="showHelp()">Instructions</h2>
+    </div>
+    <div style="width: 90%; height: 6%;">
+        <form class="submitForm">
+            <div style="display: inline-block;">
+                <input type="text" class="form__input" style="width: 160px" id="argEntered" placeholder="Goal time or % off golds" value="3%" required="" />
+            </div>
+            <div style="display: inline-block;">
+                <button type='button' (click)="generateTBXML()" class="dropbtn" id="submitNumRuns" style="cursor: pointer;">Go</button>
+            </div>
+            <div style="display: inline-block; margin-left: 10px;">
+                <button type='button' (click)="onDownload()" class="dropbtn" style="cursor: pointer;">Download</button>
+            </div>
+            <div style="display: inline-block; margin-left: 10px;">
+                <p id="incorrectFormat" style="color: red; visibility: hidden;">Incorrect Format</p>
+            </div>
+        </form>
+    </div>
+
+    <div class="data" id="d2Group" style="visibility: hidden;">
+        <mat-tab-group class="test" mat-align-tabs="left" style="margin-top: 10px;">
+            <mat-tab label="XML">
+                <div class="dataSet" style="height: 700px;">
+                    <ngx-monaco-editor id="xmlDisplayer" style="height: 100%;" [options]="editorOptions" [(ngModel)]="code"></ngx-monaco-editor>
+                </div>
+            </mat-tab>
+            <mat-tab label="Settings">
+                <div class="dataSet"
+                    *ngIf="newTime" id="settingsDisplayer">
+                    <div style="display: inline-block; margin-top: 15px; width: 100%;">
+                        <div style="margin-left: 10px; margin-right: 15px; float: right;">
+                            <button type='button' (click)="resetGoalTimes(true)" class="dropbtn" style="cursor: pointer;">Reset</button>
+                        </div>
+                        <div style="float: right;">
+                            <button type='button' (click)="updateGoalTimes()" class="dropbtn" style="cursor: pointer;">Adjust</button>
+                        </div>
+                        <div style="float: right; margin-right: 10px; margin-top: 7px;">
+                            <mat-checkbox style="color: white;"
+                            required
+                            [checked]="false"
+                            (change)="toggleGoalAdjust()"
+                            name="first-name"
+                            value="first-value"
+                            aria-label="First checkbox">
+                            Auto Adjust Splits
+                            </mat-checkbox>
+                        </div>
+                    </div>
+                    <p class="dataHeader" style="margin-right: 27px;">% off gold</p>
+                    <p class="dataHeader" style="margin-right: 86px;">Run Time</p>
+                    <p class="dataHeader" style="margin-right: 83px;">Split Time</p>
+                    <p class="dataHeader">Split Name</p>
+                    <div *ngFor="let arr of adjustArr" style="margin-bottom: 5px;">
+                        <div style="display: inline-block;">
+                            <input type="text" class="aboveGold__input" id="settings{{ arr.splitName }}" value='{{ arr.aboveGold }}' required="" />
+                        </div>
+                        <p class="dataStats">{{ arr.segmentTimes }}</p>
+                        <p class="dataStats">{{ arr.splitTimes }}</p>
+                        <p class="dataStats">{{ arr.splitName }}</p>
+                        <!--<p class="dataStats">{{stats.splitName}}</p>-->
+                    </div>
+                    <div style="height: 10px;">
+
+                    </div>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+</div>

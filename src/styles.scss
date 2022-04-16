@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.data .test .mat-tab-label-active {
+    background-color: #27282c!important;
+    opacity: 1!important;
+    border: 2px solid black;
+    color: white;
+    margin-right: 1px;
+  }
+
+.data .test .mat-tab-label {
+    background-color: #404040;
+    opacity: 1!important;
+    border: 2px solid black;
+    color: white;
+    margin-right: 1px;
+  }
+
+.dataSet {
+    width: 99%;
+    background: #27282c;
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 0px;
+}
+
+html { background-color: #2f3136}
+html, body { height: 100%; }

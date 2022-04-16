@@ -1,0 +1,54 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<div id="helpBox" style="position: absolute; left: 50%; margin-top: 260px; visibility: hidden;">
+    <div class="helpDiv">
+        <button (click)="closeDiv('helpBox')" style="position: absolute; left: 94%; top: 10px; background: none; border: none; cursor: pointer;">X</button>
+        <h2 class="helpHeader">What this is</h2>
+        <p class="helpP">One option you have in Livesplit is to compare against your "Balanced PB".  Unfortunately, this comparison is not very accurate because Livesplit does some weird stuff with weighting.  With this tool you can create an accurate one!  In addition to that, you can also create comparisons for goal times that you want to reach to help you see what kind of pace you need to be on to obtain it!</p>
+        <h2 class="helpHeader">How to use</h2>
+        <p class="helpP">To start, you can either enter a percentage off of your golds, your PB, or a goal time.  For example, you could enter "3%" or you could enter "00:33:59.74" (if you don't have hours or ms, then just put 00 for them).  The default is 3% off your golds.  After clicking "Go" the tool will show you the XML that you will be downloading.  You can edit the XML directly or you can go to settings and change the % off your golds until you are satisfied with the times.  If you want your subsequent splits to be affected by the changes you are making in the settings, then check the "Auto Adjust Splits" box.  Otherwise, leave it unchecked.</p>
+        <h2 class="helpHeader">How to import</h2>
+        <p class="helpP" style="text-align: left;">1) Download the file and open up the Livesplit file you want to import the comparison to.</p>
+        <p class="helpP" style="text-align: left;">2) Right click and hit "Edit Splits".  On the bottom left of the box hit "Import Comparison" and click "From File".</p>
+        <p class="helpP" style="text-align: left;">3) Select the file you downloaded and give it whatever name you would like.  Hit "Ok" and then click "Ok" on the Edit Splits box to exit it.</p>
+        <p class="helpP" style="text-align: left;">4) Right click again and go over to "Compare Against".</p>
+        <p class="helpP" style="text-align: left;">5) You should see the comparison in the list of choices.  Select it and you're good to go!</p>
+    </div>
+</div>
+<div id="errBox" style="position: absolute; left: 50%; margin-top: 120px; visibility: hidden;">
+    <div class="errDiv">
+        <button (click)="closeDiv('errBox')" style="position: absolute; left: 94%; top: 10px; background: none; border: none; cursor: pointer; color: white;">X</button>
+        <p class="helpP" style="color: white;">Error: The following splits either lack data or do not have a best segment time for the current timing comparison.  Please select another timing comparison or use a different file</p>
+        <p class="helpP" style="color: white;" *ngFor="let noData of noBestData">{{ noData }}</p>
+    </div>
+</div>
+<div>
+    <p style="color: white; display: inline-block; text-align: center;">Choose your Timing Comparison</p>
+</div>
+<div class="text-center" style="margin-bottom: 10px;">
+    <button (click)="changeTimeComp('RealTime')"
+        class="dropbtn" id="realTime" style="cursor: pointer; display: inline-block; margin-right: 10px; background: #212325;">
+        Real Time
+    </button>
+    <button (click)="changeTimeComp('GameTime')"
+        class="dropbtn" id="gameTime" style="cursor: pointer; display: inline-block;">
+        Game Time
+    </button>
+</div>
+<div class="text-center" style="margin-bottom: 10px;">
+    <label for="file-upload" class="custom-file-upload">
+        <i class="fa fa-cloud-upload"></i> Choose lss file
+    </label>
+    <input id="file-upload" type="file" (change)="onChange($event)" accept=".lss"/>
+</div>
+<div class="text-center" style="margin-bottom: 10px;">
+    <span id="file-selected" style="color: white;"></span>
+</div>
+<div style="margin-bottom: 5px;">
+    <button (click)="onUpload(true, 0)"
+        class="dropbtn" style="cursor: pointer; text-align: center;">
+        Upload
+    </button>
+</div>
+<div style="margin-bottom: 10px;">
+    <p id="uploadStatus" style="visibility: hidden; color: red; display: inline-block; margin-left: 5px;">Please upload an .lss file</p>
+</div>

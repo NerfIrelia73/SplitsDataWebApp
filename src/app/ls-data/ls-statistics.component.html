@@ -1,0 +1,110 @@
+<div *ngIf="dispNow" class="dataBlock" id="d1" style="margin-right: 1%;">
+    <div>
+        <h2 class="chartHeader" style="margin-bottom: 8px;">Analytics</h2>
+    </div>
+    <mat-checkbox style="color: white; margin-left: 8px;"
+    required
+    [checked]="false"
+    (change)="toggleSubsplits()"
+    name="first-name"
+    value="first-value"
+    aria-label="First checkbox">
+    Combine Subsplits
+    </mat-checkbox>
+    <div style="width: 85%; height: 6%;">
+        <div class="dropdown">
+            <button (click)="toggleMenu(0)" class="dropbtn" id="dropTitle" style="margin-left: 5px;">Data from all attempts</button>
+            <div class="dropdown-content" id="dropdownOptions">
+                <button (click)="changeText('option0', 0)" id="option0">Data from first X number of attempts</button>
+                <button (click)="changeText('option1', 0)" id="option1">Data from last X number of attempts</button>
+                <button (click)="changeText('option2', 0)" id="option2">Data from all attempts</button>
+                <button (click)="changeText('option3', 0)" id="option3">Data from first X number of completed runs</button>
+                <button (click)="changeText('option4', 0)" id="option4">Data from last X number of completed runs</button>
+                <button (click)="changeText('option5', 0)" id="option5">Data from all completed runs</button>
+            </div>
+        </div>
+
+        <form class="submitForm">
+            <div style="display: inline-block;">
+                <input type="text" class="form__input" id="numRuns" placeholder="Number" required="" />
+            </div>
+            <div style="display: inline-block;">
+                <button type='button' (click)="submitData()" class="dropbtn" id="submitNumRuns" style="cursor: pointer;">Go</button>
+            </div>
+            <div style="display: inline-block;">
+                <p id="argErrMsg" style="color: red; margin-left: 10px; width: 100%; height: 100%; visibility: hidden;">Invalid Input</p>
+            </div>
+        </form>
+    </div>
+    <div class="data" id="d1Group" style="visibility: hidden;">
+        <mat-tab-group class="test" mat-align-tabs="left" style="margin-top: 10px;">
+            <mat-tab label="PB">
+                <app-personal-best [calcMethod]="calcMethod" [attemptHist]="attemptHist" [compRunsIDs]="compRunsIDs" [pbMap]="pbMap" [statsMap]="statsMap"></app-personal-best>
+            </mat-tab>
+            <mat-tab label="General">
+                <app-general-info [calcMethod]="calcMethod" [attemptHist]="attemptHist" [compRunsIDs]="compRunsIDs"></app-general-info>
+            </mat-tab>
+            <mat-tab label="Statistics">
+                <div class="dataSet"
+                    *ngIf="statsMap" id="statsData">
+                    <table style="width: 100%;">
+                        <tr style="width: 100%;">
+                            <th (click)="reorderData(0)" class="dataHeader">#</th>
+                            <th (click)="reorderData(1)" class="dataHeader" style="padding-right: 140px;">Split Name</th>
+                            <th (click)="reorderData(2)" class="dataHeader">Mean</th>
+                            <th (click)="reorderData(3)" class="dataHeader">Median</th>
+                            <th (click)="reorderData(4)" class="dataHeader">Deviation</th>
+                            <th (click)="reorderData(5)" class="dataHeader">Gold</th>
+                        </tr>
+                        <tr style="width: 100%;" *ngFor="let stats of statsMap">
+                            <th *ngIf="combineSubsplits == 1 || stats.splitName[0]  != '-'">{{stats.splitNum}}</th>
+                            <th *ngIf="combineSubsplits == 1 || stats.splitName[0]  != '-'" style="width: 100%;">{{stats.splitName}}</th>
+                            <th *ngIf="combineSubsplits == 1 || stats.splitName[0]  != '-'">{{stats.finalStats[0][0]}}</th>
+                            <th *ngIf="combineSubsplits == 1 || stats.splitName[0]  != '-'">{{stats.finalStats[1][0]}}</th>
+                            <th *ngIf="combineSubsplits == 1 || stats.splitName[0]  != '-'">{{stats.finalStats[2][0]}}</th>
+                            <th *ngIf="combineSubsplits == 1 || stats.splitName[0]  != '-'">{{stats.finalStats[3][0]}}</th>
+                        </tr>
+                    </table>
+                </div>
+            </mat-tab>
+            <mat-tab label="Charts" (click)="submitData()">
+                <div class="dataSet" id="chartsData">
+                    <div class="dropdown" style="width: 25%; margin-top: 10px; margin-bottom: 10px;">
+                        <button (click)="toggleMenu(2)" class="dropbtn" id="dropSplits">General</button>
+                        <div class="dropdown-content" id="dropdownSplits" style="max-height: 250px; overflow: auto;">
+                            <button (click)="changeText('General', 1)">General</button>
+                            <ng-container *ngFor="let pbData of pbMap">
+                                <button (click)="changeText(pbData.splitName, 1)" *ngIf="combineSubsplits == 1 || pbData.splitName[0]  != '-'">{{ pbData.splitName }}</button>
+                            </ng-container>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="chartHeader">Attempts vs Time</h2>
+                        <div style="display: block; margin-bottom: 20px;">
+                            <canvas *ngIf="lineChartData.length > 0" baseChart
+                            [datasets]="lineChartData"
+                            [labels]="lineChartLabels"
+                            [options]="lineChartOptions"
+                            [colors]="lineChartColors"
+                            [legend]="lineChartLegend"
+                            [chartType]="lineChartType"
+                            [plugins]="lineChartPlugins">
+                            </canvas>
+                        </div>
+                        <h2 class="chartHeader" id="resetChartTitle">Resets per Split</h2>
+                        <h2 class="chartHeader" id="medianSplitTime" style="visibility: hidden; font-size: 30px;"></h2>
+                        <div>
+                            <canvas baseChart
+                            [data]="doughnutChartData"
+                            [labels]="doughnutChartLabels"
+                            [chartType]="doughnutChartType"
+                            [colors]="doughnutChartColors"
+                            [options]="doughnutChartOptions">
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+</div>

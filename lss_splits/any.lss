@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>Unbound: Worlds Apart</GameName>
+  <CategoryName>Any%</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>6</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="08/03/2021 23:33:07" isStartedSynced="True" ended="08/03/2021 23:33:20" isEndedSynced="True" />
+    <Attempt id="2" started="08/03/2021 23:36:05" isStartedSynced="False" ended="08/03/2021 23:36:19" isEndedSynced="False" />
+    <Attempt id="3" started="08/03/2021 23:41:18" isStartedSynced="True" ended="08/03/2021 23:41:30" isEndedSynced="True" />
+    <Attempt id="4" started="08/03/2021 23:41:38" isStartedSynced="True" ended="08/04/2021 01:17:51" isEndedSynced="True">
+      <RealTime>01:36:13.2250000</RealTime>
+      <GameTime>01:30:23.5340000</GameTime>
+    </Attempt>
+    <Attempt id="5" started="08/14/2021 17:35:41" isStartedSynced="True" ended="08/14/2021 17:35:54" isEndedSynced="True" />
+    <Attempt id="6" started="08/14/2021 17:36:08" isStartedSynced="True" ended="08/14/2021 18:59:33" isEndedSynced="True">
+      <RealTime>01:23:24.9410000</RealTime>
+      <GameTime>01:23:07.0800000</GameTime>
+    </Attempt>
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>Wings</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:23:37.8760000</RealTime>
+          <GameTime>00:23:32.0650000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:23:37.8760000</RealTime>
+        <GameTime>00:22:02.3280000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:24:31.7430000</RealTime>
+          <GameTime>00:22:02.3280000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:23:37.8760000</RealTime>
+          <GameTime>00:23:32.0650000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Sanarya</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:34:19.4740000</RealTime>
+          <GameTime>00:34:13.2430000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:10:41.5980000</RealTime>
+        <GameTime>00:10:30.6340000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:11:44.8680000</RealTime>
+          <GameTime>00:10:30.6340000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:10:41.5980000</RealTime>
+          <GameTime>00:10:41.1780000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Claw</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:38:32.9180000</RealTime>
+          <GameTime>00:38:22.4190000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:58.5400000</RealTime>
+        <GameTime>00:03:48.4770000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:03:58.5400000</RealTime>
+          <GameTime>00:03:48.4770000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:04:13.4440000</RealTime>
+          <GameTime>00:04:09.1760000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Dash</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:56:58.3230000</RealTime>
+          <GameTime>00:56:47.8240000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:16:31.9420000</RealTime>
+        <GameTime>00:16:11.4070000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:16:31.9420000</RealTime>
+          <GameTime>00:16:11.4070000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:18:25.4050000</RealTime>
+          <GameTime>00:18:25.4050000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Umberra</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>01:12:55.0920000</RealTime>
+          <GameTime>01:12:39.6840000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:15:14.8720000</RealTime>
+        <GameTime>00:14:51.6710000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:15:14.8720000</RealTime>
+          <GameTime>00:14:51.6710000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:15:56.7690000</RealTime>
+          <GameTime>00:15:51.8600000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Double Dash</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>01:17:31.8590000</RealTime>
+          <GameTime>01:17:14.0290000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:36.7670000</RealTime>
+        <GameTime>00:04:34.3450000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:05:16.9730000</RealTime>
+          <GameTime>00:04:59.7460000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:04:36.7670000</RealTime>
+          <GameTime>00:04:34.3450000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Arawen</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>01:23:24.9410000</RealTime>
+          <GameTime>01:23:07.0800000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:53.0820000</RealTime>
+        <GameTime>00:05:53.0510000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:18:54.2870000</RealTime>
+          <GameTime>00:17:59.2710000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:05:53.0820000</RealTime>
+          <GameTime>00:05:53.0510000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings>
+    <Version>1.5</Version>
+    <ScriptPath>C:\Users\stlau\Documents\LiveSplit_1.8.16\Components\unbound.asl</ScriptPath>
+    <CustomSettings />
+  </AutoSplitterSettings>
+</Run>

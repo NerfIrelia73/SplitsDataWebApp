@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>ENDER LILIES: Quietus of the Knights</GameName>
+  <CategoryName>Sub-Spirits Only A</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>8</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="08/28/2021 05:30:57" isStartedSynced="True" ended="08/28/2021 06:31:08" isEndedSynced="True">
+      <RealTime>01:00:10.8700000</RealTime>
+      <GameTime>00:59:16.9600000</GameTime>
+    </Attempt>
+    <Attempt id="2" started="08/28/2021 06:35:01" isStartedSynced="True" ended="08/28/2021 06:35:10" isEndedSynced="True" />
+    <Attempt id="3" started="08/28/2021 06:35:26" isStartedSynced="True" ended="08/28/2021 06:35:35" isEndedSynced="True" />
+    <Attempt id="4" started="08/28/2021 06:35:50" isStartedSynced="True" ended="08/28/2021 06:35:56" isEndedSynced="True" />
+    <Attempt id="5" started="08/28/2021 06:36:12" isStartedSynced="True" ended="08/28/2021 06:36:18" isEndedSynced="True" />
+    <Attempt id="6" started="08/28/2021 06:36:29" isStartedSynced="True" ended="08/28/2021 06:36:39" isEndedSynced="True" />
+    <Attempt id="7" started="08/28/2021 06:36:54" isStartedSynced="True" ended="08/28/2021 06:37:08" isEndedSynced="True" />
+    <Attempt id="8" started="08/28/2021 06:37:17" isStartedSynced="True" ended="08/28/2021 07:26:41" isEndedSynced="True">
+      <RealTime>00:49:24.0010000</RealTime>
+      <GameTime>00:48:36.0810000</GameTime>
+    </Attempt>
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>Siegrid</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:03:00.1830000</RealTime>
+          <GameTime>00:02:55.3600000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:00.1830000</RealTime>
+        <GameTime>00:02:55.3600000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:03:09.9910000</RealTime>
+          <GameTime>00:03:05.1980000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:03:00.1830000</RealTime>
+          <GameTime>00:02:55.3600000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Youth</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:05:14.7580000</RealTime>
+          <GameTime>00:05:07.9650000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:14.5750000</RealTime>
+        <GameTime>00:02:12.6050000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:02:19.6870000</RealTime>
+          <GameTime>00:02:17.6960000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:02:14.5750000</RealTime>
+          <GameTime>00:02:12.6050000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Fungal</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:08:47.2780000</RealTime>
+          <GameTime>00:08:35.7970000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:32.5200000</RealTime>
+        <GameTime>00:03:27.8320000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:03:40.5510000</RealTime>
+          <GameTime>00:03:35.8600000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:03:32.5200000</RealTime>
+          <GameTime>00:03:27.8320000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Manisa's</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:09:51.8540000</RealTime>
+          <GameTime>00:09:38.7330000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:04.5760000</RealTime>
+        <GameTime>00:01:02.9360000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:01:05.4140000</RealTime>
+          <GameTime>00:01:03.7560000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:01:04.5760000</RealTime>
+          <GameTime>00:01:02.9360000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Floral</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:11:18.3700000</RealTime>
+          <GameTime>00:11:04.0050000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:26.5160000</RealTime>
+        <GameTime>00:01:25.2720000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:01:38.6410000</RealTime>
+          <GameTime>00:01:37.4360000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:01:26.5160000</RealTime>
+          <GameTime>00:01:25.2720000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Merchant</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:14:42.3940000</RealTime>
+          <GameTime>00:14:21.6590000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:22.4890000</RealTime>
+        <GameTime>00:03:16.3210000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:03:22.4890000</RealTime>
+          <GameTime>00:03:16.3210000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:03:24.0240000</RealTime>
+          <GameTime>00:03:17.6540000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Defender</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:17:11.7450000</RealTime>
+          <GameTime>00:16:48.7510000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:29.3510000</RealTime>
+        <GameTime>00:02:27.0920000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:02:35.4260000</RealTime>
+          <GameTime>00:02:33.1480000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:02:29.3510000</RealTime>
+          <GameTime>00:02:27.0920000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Gerrod</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:20:55.0710000</RealTime>
+          <GameTime>00:20:30.0290000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:30.1440000</RealTime>
+        <GameTime>00:03:28.0580000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:03:30.1440000</RealTime>
+          <GameTime>00:03:28.0580000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:03:43.3260000</RealTime>
+          <GameTime>00:03:41.2780000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Eleine</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:25:56.4080000</RealTime>
+          <GameTime>00:25:28.1350000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:01.3370000</RealTime>
+        <GameTime>00:04:58.1060000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:05:28.0770000</RealTime>
+          <GameTime>00:05:24.8860000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:05:01.3370000</RealTime>
+          <GameTime>00:04:58.1060000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Fretia's</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:29:24.2330000</RealTime>
+          <GameTime>00:28:50.3310000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:23.8200000</RealTime>
+        <GameTime>00:03:18.1090000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:03:23.8200000</RealTime>
+          <GameTime>00:03:18.1090000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:03:27.8250000</RealTime>
+          <GameTime>00:03:22.1960000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Aqueduct</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:32:23.5980000</RealTime>
+          <GameTime>00:31:47.5960000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:59.3650000</RealTime>
+        <GameTime>00:02:57.2650000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="8">
+          <RealTime>00:02:59.3650000</RealTime>
+          <GameTime>00:02:57.2650000</GameTime>
+        </Time>
+        <Time id="1" />
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Executioner</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:37:48.2890000</RealTime>
+          <GameTime>00:37:04.7090000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:24.6910000</RealTime>
+        <GameTime>00:05:17.1130000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:14:52.2980000</RealTime>
+          <GameTime>00:14:38.5430000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:05:24.6910000</RealTime>
+          <GameTime>00:05:17.1130000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Hoenir</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:48:01.0850000</RealTime>
+          <GameTime>00:47:14.9880000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:01.7420000</RealTime>
+        <GameTime>00:04:59.9360000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:05:01.7420000</RealTime>
+          <GameTime>00:04:59.9360000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:10:12.7960000</RealTime>
+          <GameTime>00:10:10.2790000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Ending A</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:49:24.0010000</RealTime>
+          <GameTime>00:48:36.0810000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:22.9160000</RealTime>
+        <GameTime>00:01:21.0930000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:10:02.5900000</RealTime>
+          <GameTime>00:09:58.0130000</GameTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:01:22.9160000</RealTime>
+          <GameTime>00:01:21.0930000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings>
+    <Version>1.5</Version>
+    <ScriptPath>C:\Users\Martin\Downloads\LiveSplit_1.8.15\Components\EnderLiliesAutoSplitter.asl</ScriptPath>
+    <Start>True</Start>
+    <Reset>True</Reset>
+    <Split>True</Split>
+    <CustomSettings>
+      <Setting id="load_remover" type="bool">True</Setting>
+      <Setting id="load_remover_igt" type="bool">False</Setting>
+      <Setting id="config_split" type="bool">True</Setting>
+      <Setting id="split_ending" type="bool">True</Setting>
+      <Setting id="split_boss_killed" type="bool">True</Setting>
+      <Setting id="boss_map_church_03" type="bool">True</Setting>
+      <Setting id="boss_map_village_10" type="bool">True</Setting>
+      <Setting id="boss_map_forest_15" type="bool">True</Setting>
+      <Setting id="boss_map_cave_23" type="bool">True</Setting>
+      <Setting id="boss_map_castle_20" type="bool">True</Setting>
+      <Setting id="boss_map_fort_21" type="bool">True</Setting>
+      <Setting id="boss_map_oubliette_15" type="bool">True</Setting>
+      <Setting id="boss_map_swamp_17" type="bool">True</Setting>
+      <Setting id="boss_map_abyss_03" type="bool">True</Setting>
+      <Setting id="split_miniboss_killed" type="bool">True</Setting>
+      <Setting id="boss_map_church_07" type="bool">True</Setting>
+      <Setting id="boss_map_village_08" type="bool">True</Setting>
+      <Setting id="boss_map_village_04_1" type="bool">True</Setting>
+      <Setting id="boss_map_castle_01" type="bool">True</Setting>
+      <Setting id="boss_map_cave_19" type="bool">True</Setting>
+      <Setting id="boss_map_cave_07" type="bool">True</Setting>
+      <Setting id="boss_map_forest_06" type="bool">True</Setting>
+      <Setting id="boss_map_forest_11" type="bool">True</Setting>
+      <Setting id="boss_map_fort_01" type="bool">True</Setting>
+      <Setting id="boss_map_oubliette_07_2" type="bool">True</Setting>
+      <Setting id="boss_map_oubliette_12" type="bool">True</Setting>
+      <Setting id="boss_map_swamp_15" type="bool">True</Setting>
+      <Setting id="boss_map_swamp_04" type="bool">True</Setting>
+      <Setting id="boss_map_village_14" type="bool">True</Setting>
+      <Setting id="boss_map_church_09" type="bool">True</Setting>
+      <Setting id="boss_map_fort_12" type="bool">True</Setting>
+      <Setting id="boss_map_castle_16" type="bool">True</Setting>
+      <Setting id="split_stone_tablet" type="bool">False</Setting>
+      <Setting id="split_stone_tablet_1" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_2" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_3" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_4" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_5" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_6" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_7" type="bool">True</Setting>
+      <Setting id="split_area" type="bool">False</Setting>
+      <Setting id="map_church" type="bool">False</Setting>
+      <Setting id="map_village" type="bool">False</Setting>
+      <Setting id="map_castle" type="bool">False</Setting>
+      <Setting id="map_fort" type="bool">False</Setting>
+      <Setting id="map_forest" type="bool">False</Setting>
+      <Setting id="map_cave" type="bool">False</Setting>
+      <Setting id="map_oubliette" type="bool">False</Setting>
+      <Setting id="map_swamp" type="bool">False</Setting>
+      <Setting id="map_outside" type="bool">False</Setting>
+      <Setting id="map_abyss" type="bool">False</Setting>
+      <Setting id="split_respite" type="bool">True</Setting>
+      <Setting id="map_church_10" type="bool">False</Setting>
+      <Setting id="map_church_05" type="bool">False</Setting>
+      <Setting id="map_church_04" type="bool">False</Setting>
+      <Setting id="map_church_08" type="bool">False</Setting>
+      <Setting id="map_village_05" type="bool">False</Setting>
+      <Setting id="map_village_09" type="bool">False</Setting>
+      <Setting id="map_castle_04" type="bool">False</Setting>
+      <Setting id="map_castle_07" type="bool">False</Setting>
+      <Setting id="map_castle_10" type="bool">False</Setting>
+      <Setting id="map_castle_19" type="bool">False</Setting>
+      <Setting id="map_castle_15" type="bool">False</Setting>
+      <Setting id="map_fort_03" type="bool">False</Setting>
+      <Setting id="map_fort_10" type="bool">False</Setting>
+      <Setting id="map_fort_08" type="bool">False</Setting>
+      <Setting id="map_fort_16" type="bool">False</Setting>
+      <Setting id="map_fort_20" type="bool">False</Setting>
+      <Setting id="map_forest_05" type="bool">False</Setting>
+      <Setting id="map_forest_10" type="bool">False</Setting>
+      <Setting id="map_forest_14" type="bool">False</Setting>
+      <Setting id="map_cave_01" type="bool">False</Setting>
+      <Setting id="map_cave_03" type="bool">False</Setting>
+      <Setting id="map_cave_13" type="bool">False</Setting>
+      <Setting id="map_cave_16" type="bool">False</Setting>
+      <Setting id="map_oubliette_02" type="bool">True</Setting>
+      <Setting id="map_oubliette_06_1" type="bool">False</Setting>
+      <Setting id="map_oubliette_10" type="bool">False</Setting>
+      <Setting id="map_oubliette_14" type="bool">False</Setting>
+      <Setting id="map_outside_01" type="bool">False</Setting>
+      <Setting id="map_swamp_01" type="bool">False</Setting>
+      <Setting id="map_swamp_06" type="bool">False</Setting>
+      <Setting id="map_swamp_10" type="bool">False</Setting>
+      <Setting id="map_swamp_12" type="bool">False</Setting>
+      <Setting id="map_swamp_16" type="bool">False</Setting>
+      <Setting id="map_abyss_02" type="bool">False</Setting>
+      <Setting id="split_relics" type="bool">True</Setting>
+      <Setting id="Soiled Prayer Beads" type="bool">False</Setting>
+      <Setting id="Royal Aegis Crest" type="bool">False</Setting>
+      <Setting id="Broken Music Box" type="bool">False</Setting>
+      <Setting id="Cracked Familiar Stone" type="bool">False</Setting>
+      <Setting id="Snowdrop Bracelet" type="bool">False</Setting>
+      <Setting id="Blighted Appendage" type="bool">False</Setting>
+      <Setting id="Giant's Ring" type="bool">False</Setting>
+      <Setting id="Ancient Dragon Claw" type="bool">False</Setting>
+      <Setting id="Rusted Blue Ornament" type="bool">False</Setting>
+      <Setting id="Executioner's Gloves" type="bool">False</Setting>
+      <Setting id="Decayed Crown" type="bool">False</Setting>
+      <Setting id="Weathered Necklace" type="bool">False</Setting>
+      <Setting id="Immortal's Crest" type="bool">False</Setting>
+      <Setting id="Manisa's Ring" type="bool">True</Setting>
+      <Setting id="Aura's Ring" type="bool">False</Setting>
+      <Setting id="Kilteus' Ring" type="bool">False</Setting>
+      <Setting id="Calivia's Ring" type="bool">False</Setting>
+      <Setting id="White Priestess Statue" type="bool">False</Setting>
+      <Setting id="Priestess' Doll" type="bool">False</Setting>
+      <Setting id="White Priestess' Earrings" type="bool">False</Setting>
+      <Setting id="Holy Spring Water" type="bool">False</Setting>
+      <Setting id="Nymphilia's Ring" type="bool">False</Setting>
+      <Setting id="Spellbound Anklet" type="bool">False</Setting>
+      <Setting id="Vibrant Plume" type="bool">False</Setting>
+      <Setting id="Ruined Witch's Book" type="bool">False</Setting>
+      <Setting id="Bloodstained Ribbon" type="bool">False</Setting>
+      <Setting id="Blightwreathed Blade" type="bool">False</Setting>
+      <Setting id="Heretic's Mask" type="bool">False</Setting>
+      <Setting id="Eldred's Ring" type="bool">False</Setting>
+      <Setting id="Ricorus' Ring" type="bool">False</Setting>
+      <Setting id="Luminant Aegis Curio" type="bool">False</Setting>
+      <Setting id="Lost Heirloom" type="bool">False</Setting>
+      <Setting id="Blighted Phantom" type="bool">False</Setting>
+      <Setting id="Fretia's Ring" type="bool">True</Setting>
+    </CustomSettings>
+  </AutoSplitterSettings>
+</Run>

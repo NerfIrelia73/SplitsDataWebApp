@@ -1,0 +1,190 @@
+  :host {
+    width: 49%;
+    margin-right: 1px;
+  }
+
+  .data {
+      width: 100%;
+      display: inline-block;
+      margin-top: -3px;
+      margin-left: 5px;
+  }
+
+  .dataSet {
+    width: 99%;
+    background: #27282c;
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 0px;
+  }
+
+  .dataBlock {
+      margin-right: 1px;
+      width: 100%;
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .dropbtn {
+      background-color: #2f3136;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid white;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+    }
+
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      width: 55%;
+      height: 100%;
+      background-color: #2f3136;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      font-size: 14px;
+      background-color: #2f3136;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 102;
+    }
+
+    .dropdown-content button {
+      background-color: #2f3136;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      border: none;
+      width: 100%;
+      text-align: left;
+    }
+
+    .dropdown-content button:hover {background-color: rgb(85, 85, 85);}
+
+    .show {display: block;}
+
+    .submitForm {
+      display: inline-block;
+    }
+
+    .tabButton {
+      background-color: #404040;
+      border-top: 2px solid black;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-bottom: none;
+      height: 100%;
+      width: 13%;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .tabButton:active {
+      border-style: outset;
+    }
+
+    .form__label {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+      margin-left: 2rem;
+      margin-top: 0.7rem;
+      display: inline-block;
+      transition: all 0.3s;
+      transform: translateY(0rem);
+    }
+
+    .form__input {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      font-size: 14px;
+      margin: 1px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid white;
+      border-radius: 5px;
+      width: 60px;
+      height: 15px;
+      display: inline-block;
+    }
+
+    .dataHeader {
+      border-bottom: 1px solid #dddddd;
+      color: white;
+      text-align: left;
+      padding: 10px;
+      padding-right: 15px;
+      border-top: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .dataStats {
+      margin-right: 22px;
+      margin-left: 15px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 16px;
+      display: inline-block;
+      color: white;
+    }
+
+    .chartHeader {
+      color: white;
+      text-align: center;
+      font-size: 50px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .icon {
+      width: 100%;
+      height: 100%;
+    }
+
+    [aria-label=primary] {
+      background-color: rgb(4, 0, 255);
+    }
+
+
+    polyline {
+      stroke: black;
+      stroke-width: 2px;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+    }
+
+    td, th {
+      border-bottom: 2px solid black;
+      border-top: 2px solid black;
+      color: white;
+      text-align: left;
+      padding: 15px;
+      padding-right: 15px;
+      font-weight: normal;
+    }
+
+
+    .svgDisp {
+      user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    }

@@ -1,0 +1,37 @@
+<div class="dataSet" *ngIf="pbMap" id="pbData">
+    <table style="width: 100%; white-space: nowrap;">
+        <tr style="width: 100%;">
+            <th class="dataHeader">#</th>
+            <th class="dataHeader">Icon</th>
+            <th class="dataHeader">Split Name</th>
+            <th class="dataHeader">Segment Time</th>
+            <th class="dataHeader">Run Time</th>
+        </tr>
+        <tr style="width: 100%;" *ngFor="let pbStats of pbMap">
+            <th *ngIf="combineSubsplits == 1 || pbStats.splitName[0]  != '-'">{{pbStats.splitNum}}</th>
+            <td *ngIf="combineSubsplits == 1 || pbStats.splitName[0]  != '-'"><img *ngIf="pbStats.splitIcon != ''" class="icon" [src]=pbStats.splitIcon/></td>
+            <th *ngIf="combineSubsplits == 1 || pbStats.splitName[0]  != '-'" style="width: 80%;">{{pbStats.splitName}}</th>
+            <ng-container *ngIf="combineSubsplits == 1">
+                <th>{{pbStats.splitTime}}</th>
+            </ng-container>
+            <ng-container *ngIf="combineSubsplits == -1 && pbStats.splitName[0]  != '-'">
+                <th>{{pbStats.subsplitTime}}</th>
+            </ng-container>
+            <th *ngIf="combineSubsplits == 1 || pbStats.splitName[0]  != '-'">{{pbStats.runTime}}</th>
+        </tr>
+    </table>
+    <h2 class="chartHeader" id="doughnutChartTitle">Possible timesave per Split</h2>
+        <div style="overflow-x: scroll; height: 600px;">
+            <div id="barChartWrapper" style="width: 100%; height: 100%;">
+                <canvas height="600" baseChart
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [plugins]="barChartPlugins"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"
+                [colors]="barChartColors">
+                </canvas>
+            </div>
+        </div>
+</div>
